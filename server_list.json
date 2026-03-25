@@ -3,7 +3,13 @@
     { "name": "Singapore Premium", "flag": "sg", "config": "vless://user1@123.45.67.89:443" },
     { "name": "USA Fast", "flag": "us", "config": "vmess://user2@98.76.54.32:80" }
   ],
- "payloads": [
+  "servers": [
+    {
+      "server_name": "Premium Server 1",
+      "server_config": "আপনার_ভিপিএন_কনফিগ_এখানে"
+    }
+  ],
+  "payloads": [
     {
       "name": "Grameenphone Free",
       "config": "GET / HTTP/1.1[crlf]Host: free.gp.com.bd[crlf][crlf]"
