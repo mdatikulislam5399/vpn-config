@@ -25,6 +25,10 @@
     {
       "name": "Atikul ATK",
       "config": "GET / HTTP/1.1[crlf]Host: m.youtube.com[crlf][crlf]"
+    },
+    {
+      "name": "Atikul ATK Two",
+      "config": "GET / HTTP/1.1[crlf]Host: m.youtube.com[crlf][crlf]"
     }
   ]
 }
