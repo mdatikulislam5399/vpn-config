@@ -1,12 +1,20 @@
 {
   "servers": [
-    { "name": "Singapore Premium", "flag": "sg", "config": "vless://user1@123.45.67.89:443" },
-    { "name": "USA Fast", "flag": "us", "config": "vmess://user2@98.76.54.32:80" }
-  ],
-  "servers": [
     {
-      "server_name": "Premium Server 1",
+      "server_name": "Singapore Premium 🇸🇬",
+      "server_config": "vless://user1@123.45.67.89:443"
+    },
+    {
+      "server_name": "USA Fast 🇺🇸",
+      "server_config": "vmess://user2@98.76.54.32:80"
+    },
+    {
+      "server_name": "Premium Server 1 💎",
       "server_config": "আপনার_ভিপিএন_কনফিগ_এখানে"
+    },
+    {
+      "server_name": "Atikul Special Server 🔥",
+      "server_config": "আপনার_আরেকটি_কনফিগ"
     }
   ],
   "payloads": [
