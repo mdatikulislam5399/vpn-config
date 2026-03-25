@@ -3,9 +3,18 @@
     { "name": "Singapore Premium", "flag": "sg", "config": "vless://user1@123.45.67.89:443" },
     { "name": "USA Fast", "flag": "us", "config": "vmess://user2@98.76.54.32:80" }
   ],
-  "payloads": [
-    { "name": "MOBILY 30 SR", "info": "Working Maswari Pack" },
-    { "name": "STC FREE", "info": "New Host Update" },
-    { "name": "ZAIN FREE", "info": "Unlimited Data" }
+ "payloads": [
+    {
+      "name": "Grameenphone Free",
+      "config": "GET / HTTP/1.1[crlf]Host: free.gp.com.bd[crlf][crlf]"
+    },
+    {
+      "name": "Banglalink Social Pack",
+      "config": "CONNECT [host_port] [protocol][crlf]Host: v.whatsapp.net[crlf][crlf]"
+    },
+    {
+      "name": "Airtel Video Pack",
+      "config": "GET / HTTP/1.1[crlf]Host: m.youtube.com[crlf][crlf]"
+    }
   ]
 }
